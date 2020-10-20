@@ -29,5 +29,5 @@
 
 > docker build -f Dockerfile -t mychatbot-angular9 .
 
-> docker run --name mychatbot-angular9 -p 9093:9093 mychatbot-angular9:latest
+> docker run --name mychatbot-angular9 -p 4200:4200 mychatbot-angular9:latest
 
